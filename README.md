@@ -2,7 +2,7 @@
 
 This is a simple cart application built with React. It allows users to add, remove, and update quantities of items in their cart, apply discounts, and view the final price. The application is responsive and optimized for both mobile and desktop views.
 
-You can also access the deployed version of the application here : 
+You can also access the deployed version of the application here : https://cart-app-fbt-adventures.vercel.app/
 
 ## Features
 
