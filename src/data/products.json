@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "image": "headphones.jpg",
+      "price": 50,
+      "description": "High-quality wireless headphones."
+    },
+    {
+      "id": 2,
+      "name": "Gaming Mouse",
+      "image": "gaming-mouse.jpg",
+      "price": 30,
+      "description": "Ergonomic gaming mouse with RGB lighting."
+    },
+    {
+      "id": 3,
+      "name": "Mechanical Keyboard",
+      "image": "mech-keyboard.jpg",
+      "price": 70,
+      "description": "Durable mechanical keyboard with tactile feedback."
+    },
+    {
+      "id": 4,
+      "name": "Smartphone Stand",
+      "image": "stand.jpg",
+      "price": 20,
+      "description": "Adjustable stand for your smartphone."
+    },
+    {
+      "id": 5,
+      "name": "Portable Charger",
+      "image": "charger.jpg",
+      "price": 25,
+      "description": "Compact and powerful portable charger."
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Speaker",
+      "image": "speaker.jpg",
+      "price": 40,
+      "description": "Portable Bluetooth speaker with excellent sound quality."
+    }
+  ]
+  
