@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Cart Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple cart application built with React. It allows users to add, remove, and update quantities of items in their cart, apply discounts, and view the final price. The application is responsive and optimized for both mobile and desktop views.
 
-## Available Scripts
+You can also access the deployed version of the application here : 
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Add/Remove Items**: Users can add products to the cart and remove them as needed.
+- **Update Quantity**: Quantity of items can be increased or decreased.
+- **Discounts**: Apply a percentage-based discount to the subtotal.
+- **Final Price Calculation**: View the final price after applying the discount.
+- **Responsive UI**: The app is fully responsive, with a smooth experience on both mobile and desktop.
+- **Cart Management**: Items can be removed from the cart or their quantity adjusted.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: JavaScript library for building user interfaces.
+- **React Context API**: Used to manage the global state (cart data).
+- **Tailwind CSS**: A utility-first CSS framework used to style the application.
+- **React Toastify**: A library for displaying notifications.
+- **React Router**: For routing between different pages (if required).
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to set up and run the project locally:
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have the following installed:
+- Node.js (LTS version recommended)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Clone the Repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/bhavkushwaha/CartApp-FBTAdventures.git
+```
+Install Dependencies
+Navigate to the project directory and install the dependencies:
 
-### `npm run eject`
+Using npm:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd cart-application
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Using yarn:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd cart-application
+yarn install
+```
+Run the Application
+After installing the dependencies, start the application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Using npm:
+```bash
+npm start
+```
 
-## Learn More
+Using yarn:
+```bash
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will start the development server, and you can view the app by navigating to http://localhost:3000 in your browser.
